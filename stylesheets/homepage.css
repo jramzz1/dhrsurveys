@@ -1,0 +1,72 @@
+#nameError {
+  display: none;
+  font-size: 0.8em;
+}
+
+#nameError.visible {
+  display: block;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+.test {
+  padding-bottom: 3.5rem;
+}
+
+input[type="radio"]{
+  margin: 0 1rem 0 0;
+}
+
+.cent {
+  text-align: center;
+}
+
+.rad {
+  padding-bottom: 2.5rem;
+}
+
+.inputs {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 60%;
+  
+}
+
+.bg{
+  background-color: rgb(0, 164, 153);
+}
+
+.page {
+  font-family: "Montserrat", sans-serif;
+}
+
+.masthead {
+  padding-top: calc(2rem + 20px);
+  padding-bottom: calc(2rem + 20px);
+  background-color: rgb(0, 164, 153);
+  font-family: "Montserrat", sans-serif;
+}
+.masthead .masthead-heading {
+  font-size: 1.50rem;
+  line-height: 1.75rem;
+}
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+.masthead .masthead-avatar {
+  width: 22rem;
+}
+
+.grid {
+    position: absolute;
+    left: 30%;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.hidepanel {
+    display: none;
+}
